@@ -28,7 +28,7 @@ body{
     font-weight: 600;
     font-size: 24px;
 }
-.community p{
+.community p{ 
     color: var(--Grayish-Blue);
 }
 .subscription{
