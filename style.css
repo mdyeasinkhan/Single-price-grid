@@ -1,0 +1,86 @@
+:root{
+    --Karla-font: 'Karla', sans-serif;
+    --Cyan-color: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+
+body{
+    font-family: var(--Karla-font);
+   
+}
+.main-section{
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+.community{
+   background: white; 
+}
+.community h2{
+    color: var(--Cyan-color);
+    font-weight: 700;
+}
+.community h3{
+    color: var(--Bright-Yellow);
+    font-weight: 600;
+    font-size: 24px;
+}
+.community p{
+    color: var(--Grayish-Blue);
+}
+.subscription{
+    background: var(--Cyan-color);
+    width: 100%;
+    height: 100%;
+
+}
+.subscription h3{
+    color: var(--Light-Gray);
+    font-size: 24px;
+}
+.subscription h4{
+    color: var(--Light-Gray);
+    font-size: 30px;
+}
+.subscription h4 span{
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 18px;
+}
+.subscription p{
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 18px;
+}
+.subscription button{
+    color: rgba(255, 255, 255, 0.795);
+    background:hsl(71, 77%, 54%);
+    border: none;
+    padding: 10px 100px 10px 100px;
+    font-size: 18px;
+}
+
+.whyus{
+    background: hsla(179, 62%, 43%, 0.63);
+    width: 100%;
+    height: 100%;
+    
+}
+.whyus h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--Light-Gray);
+    
+}
+.whyus p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.699);
+
+}
+
+
+@media (max-width: 768px) {
+    
+}
